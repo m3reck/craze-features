@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: local("Open Sans"),
+    url(/fonts/OpenSans-Bold-webfont.woff),
+    url(/fonts/OpenSans-BoldItalic-webfont.woff),
+    url(/fonts/OpenSans-ExtraBold-webfont.woff),
+    url(/fonts/OpenSans-ExtraBoldItalic-webfont.woff),
+    url(/fonts/OpenSans-Italic-webfont.woff),
+    url(/fonts/OpenSans-Light-webfont.woff),
+    url(/fonts/OpenSans-LightItalic-webfont.woff),
+    url(/fonts/OpenSans-Regular-webfont.woff),
+    url(/fonts/OpenSans-Semibold-webfont.woff),
+    url(/fonts/OpenSans-SemiboldItalic-webfont.woff);
+}
+
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.blue--background{
+    background-image: url("/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.banner--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 80%;
+}
+.banner>img{
+    position: relative;
+    margin-left: 80px;
+    width:80%;
+}
+.banner--left>img{
+    align-self: flex-start;
+    margin-left: -10px;
+}
+.banner--left>span {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+}
+.craze-content h1{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #232323;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.craze-content p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #838383;
+    text-align: center;
+}
+.bottom--text{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.bottom--text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #232323;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bottom--text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #838383;
+    text-align: center;
+    align-self: flex-start;
+}
+.box--center{
+    border-left: 1px dotted #838383;
+    border-right: 1px dotted #838383;
+    padding: 0 20px;
+    height: 180%;
+}
+.bottom--text div{
+    padding: 20px;
+    max-width: 33%;
+}
